@@ -1,0 +1,177 @@
+/* 全局样式 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* 导航栏样式 */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+h1 {
+  line-height: 0.5em; /* 将文本行距设置为2倍的字体大小 */
+}
+
+p {
+  line-height: 0.5; /* 将文本行距设置为当前字体大小的1.5倍 */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #08c;
+}
+
+/* 主要内容区域样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cent {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.container p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(255, 225, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: rgb(255, 225, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+.btn:hover {
+  background-color: #ffca1d;
+}
+
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  color: #777;
+  text-align: left;
+}
+
+.footer p {
+  vertical-align: top;
+  }
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons li {
+  margin-right: 15px;
+}
+
+.social-icons a {
+  color: #777;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px;
+}
+
+.container2 p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.cent h3 {
+  line-height: 1.5;
+}
+
+.cent2 {
+  line-height: 1.5;
+  text-align: left;
+  font-weight: bold;
+}
+
+.btn3 {
+  display: inline-block;
+  background-color: rgb(255, 225, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 9px;
+}

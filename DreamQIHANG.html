@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Startist Discover infinity 共赴星海之约|Startist官方网站</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="logo.png" type="image/png">
+  <style>
+    /* 样式化回到顶部按钮 */
+    #btnTop {
+      position: fixed;
+      bottom: 50px;
+      right: 10px;
+      padding: 10px;
+      background-color: #ffc70d;
+      color: #fff;
+      border: none;
+      border-radius: 10px; /* 添加圆角矩形 */
+      cursor: pointer;
+    }
+  </style>
+  <style>
+      .container3 {
+        display: flex; /* 使用 flex 布局 */
+        align-items: center; /* 垂直居中 */
+      }
+  
+      .logo {
+        width: 40px;
+        background-color: #ffffff;
+        margin-right: 10px;
+      }
+  
+      .text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+      }
+  </style>
+  <style>
+      nav {
+        position: fixed; /* 固定定位 */
+        top: 0; /* 距离顶部 0 像素 */
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        color: #fff;
+        padding: 10px;
+        box-sizing: border-box; /* 计算盒子大小包括边框和内边距 */
+      }
+  
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+  </style>
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav>
+    <div class="container3">
+      <div class="logo">
+        <img src="logo.png" alt="星海科技新logo" width=40px>
+      </div>
+      <div class="text">Startist星海科技</div>
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="page2.html">产品</a></li>
+      <li><a href="#">解决方案</a></li>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">联系我们</a></li>
+    </ul>
+  </nav>
+
+  <!-- 主要内容区域 -->
+  <div class="container2">
+    <br><br><br><h1>我们的产品</h1>
+  </div>
+  <div class="container4">
+    <h5 style="font-size:50px">Dream QIHANG</h5>
+    <h3 style="font-size:40px">扬 帆 远 航</h3><br>
+    
+  </div>
+  <div class="container">
+    <a href="DreamQIHANG.html"><img src="picture1.png" alt="Dream QIHANG 宣传海报" width=400></a>
+  </div>
+  <div class="cent">
+    <a href="https://www.bilibili.com/video/BV1mY411q7jN/?spm_id_from=333.999.0.0" class="btn2">去看发布会</a>
+  </div>
+  <div class="container2">
+    <br><br><br><h1>具体信息</h1>
+  </div>
+  <div class="fullimg">
+    <img src="qihang1.png" alt="Dream QIHANG 配置参数">
+    <img src="test1.png" alt="原神测试">
+    <img src="test2.png" alt="跑分测试">
+    <img src="sound.png" alt="扬声器">
+    <img src="test3.png" alt="做工质感">
+    <img src="engine.png" alt="马达">
+    <img src="screen.png" alt="屏幕">
+  </div>
+  <button id="btnTop" onclick="scrollToTop()">UP</button>
+
+  <script>
+    // JavaScript 代码，用于将页面滚动到顶部
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  </script>
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container2">
+      <div class="row">
+        <div class="col-md-6">
+          <p4>版权信息 © 2023 Startist</p4><br>
+          <p4>联系方式：QQ2702168267</p4><br>
+          <p4>邮箱：zhanganning936@gmail.com</p4><br>
+          <p4>地址：吉林省长春市经开区合肥路1145号，星海科技有限公司</p4><br>
+      </div>
+    </div>
+  </footer>  
+</body>
+</html>
